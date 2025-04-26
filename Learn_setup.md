@@ -1,14 +1,15 @@
 # Git関連
+
 ## リモートリポジトリの登録
 
-* リモートリポジトリの登録
--- リモートで向こうで最初に作っといてね
+- リモートリポジトリの登録
+  -- リモートで向こうで最初に作っといてね
 
 ```zsh
 git remote add origin https://github.com/angurodon/-learn_b.git
 ```
 
-* 正しく登録されたか確認するには:
+- 正しく登録されたか確認するには:
 
 ```zsh
 git remote -v
@@ -16,12 +17,11 @@ git remote -v
 
 ## クリーンアップの動作確認
 
-* セットアップ
+- セットアップ
 
 ```zsh
 bun add -d typescript prettier husky eslint eslint-config-next
 ```
-
 
 ```zsh
   "scripts": {
@@ -37,7 +37,6 @@ bun add -d typescript prettier husky eslint eslint-config-next
     "prepare": "husky"
   }
 ```
-
 
 ```zsh
 # node_modules や dist などのテンポラリーファイルが削除できる
@@ -59,4 +58,3 @@ bun run lint
 # format の実行で、コードフォーマットが必要なファイルを列挙できる
 bun run format
 ```
-

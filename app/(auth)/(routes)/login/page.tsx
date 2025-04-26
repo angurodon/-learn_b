@@ -32,7 +32,7 @@ const LoginPage = () => {
   };
 
   return (
-    <div>
+    <div className="flex min-h-screen flex-col items-center justify-center">
       <h1>ログイン</h1>
       <form>
         <div>
