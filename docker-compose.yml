@@ -1,0 +1,11 @@
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: ./docker/bun/Dockerfile
+    container_name: bun-learn
+  
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/opt/app
