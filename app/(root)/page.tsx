@@ -3,7 +3,7 @@ import Link from "next/link"; // Link コンポーネントをインポート
 
 export default function HomePage() {
   return (
-    <div>
+    <div className="flex min-h-screen flex-col items-center justify-center">
       <h1>ホームページ</h1>
       <p>ようこそ！</p>
       <Link href="/login">
