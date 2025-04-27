@@ -70,3 +70,9 @@ https://tailwindcss.com/plus/ui-kit?ref=sidebar#pricing
 ```zsh
 bunx --bun shadcn@latest add input
 ```
+
+## アイコン
+
+```zsh
+https://lucide.dev/icons/
+```
