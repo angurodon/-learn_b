@@ -91,6 +91,12 @@ const LoginPage = () => {
           ログイン
         </Button>
       </form>
+      <a // <Button> の代わりに <a> タグを使用
+        href="/dashboard"
+        className="w-full mt-6 inline-flex items-center justify-center rounded-lg bg-blue-600 px-6 py-1 font-semibold text-white shadow-md transition duration-200 ease-in-out hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-offset-gray-800"
+      >
+        ダッシュボード
+      </a>
       {/* ↑ ここまでが PageLayout の children */}
     </PageLayout>
   );
