@@ -58,3 +58,16 @@ bun run lint
 # format の実行で、コードフォーマットが必要なファイルを列挙できる
 bun run format
 ```
+
+## tailwindの勉強
+
+```zsh
+https://tailwindcss.com/plus/ui-kit?ref=sidebar#pricing
+```
+
+
+## shadcn
+
+```zsh
+bunx --bun shadcn@latest add input
+```
