@@ -42,7 +42,7 @@ export default function RootLayout({
           <Navbar />
           {/* ↓ children は ThemeProvider の *内側* に戻す */}
           {/* ↓ main タグでラップし、中央揃えと padding-top を適用 */}
-          <main >
+          <main>
             {children}
           </main>
           {/* フッターなどをここに追加する場合は <main> の外、</ThemeProvider> の内側など */}
