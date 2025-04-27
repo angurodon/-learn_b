@@ -1,5 +1,5 @@
 // components/page-layout.tsx
-import React from 'react';
+import React from "react";
 
 // このコンポーネントは props として children を受け取る
 type PageLayoutProps = {

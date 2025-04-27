@@ -65,7 +65,6 @@ bun run format
 https://tailwindcss.com/plus/ui-kit?ref=sidebar#pricing
 ```
 
-
 ## shadcn
 
 ```zsh
